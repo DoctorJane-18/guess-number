@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "press start 2p";
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 35, 58);
+  color: white;
+}
+
+header {
+  position: relative;
+  margin-bottom: 6rem;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#again-button {
+  color: black;
+  background-color: white;
+  border: 0px;
+  width: 150px;
+  height: 55px;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+#again-button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+#between {
+  color: white;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+#project-head {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#result {
+  font-size: 4rem;
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 10rem;
+  height: 8rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 0;
+  padding-top: 2rem;
+}
+
+#guess-body {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  justify-content: space-around;
+  position: relative;
+}
+
+#put-number {
+  width: 15rem;
+  height: 7rem;
+  border: white solid 5px;
+
+  text-align: center;
+  font-size: 2.7rem;
+  padding: 10px;
+  color: white;
+  display: block;
+  background: none;
+  margin-bottom: 1rem;
+}
+
+.start-guess {
+  font-size: 1rem;
+  position: relative;
+  text-align: center;
+  bottom: 10rem;
+}
+
+#result-button {
+  color: black;
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 55px;
+  font-size: 1rem;
+  margin-bottom: 12rem;
+}
+#result-button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+#score {
+  font-size: 1.3rem;
+  text-align: center;
+  top: 1rem;
+  position: relative;
+  width: 52rem;
+}
+
+#scores {
+  margin-bottom: 2rem;
+}
+
+#high-score {
+  margin-bottom: 3rem;
+}
